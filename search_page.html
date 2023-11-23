@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Поиск текста</title>
+</head>
+<body>
+    <h1>Поиск текста</h1> п
+    <form method="post" action="/">
+        <input type="text" name="keyword" placeholder="Введите ключевое слово">
+        <input type="submit" value="Поиск">
+    </form>
+
+    <h1>Результат поиска</h1>
+    <p>Найденное ключевое слово: {{ keyword }}</p>
+    <pre>{{ content }}</pre>
+
+</body>
+</html>
